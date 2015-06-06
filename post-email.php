@@ -38,8 +38,8 @@ $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
-//done. redirect to thank-you page.
-header('Location: thank-you.html');
+//done. redirect to thanks page.
+header('Location: thanks.html');
 
 
 // Function to validate against any email injection attempts
